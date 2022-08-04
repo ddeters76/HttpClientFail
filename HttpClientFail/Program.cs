@@ -10,8 +10,8 @@ namespace HttpClientFail
 {
     public class Program
     {
-        const string TheSsid = "GoldPlant";
-        const string Password = "rockythesquirrel";
+        const string TheSsid = "itsthessid";
+        const string Password = "mysupersecurepassword";
         static HttpClient _httpClient = new HttpClient();
 
         public static void Main()
